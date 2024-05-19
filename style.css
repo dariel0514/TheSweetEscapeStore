@@ -1,6 +1,63 @@
 h1 {
+    font-family: serif;
+    margin-left: 18pc;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    background-color: #0b78d0;
+    color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+
+    .topnav a,
+    .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
 }
 
 img {
@@ -8,31 +65,6 @@ img {
     padding: 0.5rem;
     height: 100px;
     width: 100px;
-}
-
-button {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: #3612d6;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: rgb(10, 219, 238);
-    background-image: linear-gradient(to top left,
-            rgba(174, 29, 210, 0.2),
-            rgba(164, 26, 202, 0.2) 30%,
-            rgba(0, 0, 0, 0));
-    box-shadow:
-        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-}
-
-button {
-    box-shadow:
-        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .first-picture {
@@ -49,4 +81,12 @@ button {
 
 .btn-secondary {
     margin-left: 0.9cm;
+}
+
+.d-flex {
+    margin-top: 3.5pc;
+}
+
+.topnav {
+    margin-top: 3pc;
 }
