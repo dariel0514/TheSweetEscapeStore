@@ -3,6 +3,10 @@ h1 {
     margin-left: 18pc;
 }
 
+body {
+    background-image: url(nature.png);
+}
+
 /* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
@@ -68,15 +72,17 @@ img {
 }
 
 .first-picture {
-    width: 295px;
+    width: 400px;
     height: max-content;
     border-radius: 5%;
     margin-left: 0.1pc;
 }
 
 .card {
-    margin-left: 0.3cm;
+    margin-left: 0.80cm;
     margin-top: 0.3cm;
+    width: 400px;
+    height: 400px;
 }
 
 .btn-secondary {
@@ -95,20 +101,6 @@ img {
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-/* Colors */
-
-$dk-blue: #1E83AE;
-$blue: #3D5B94;
-$light-blue: #3DACDD;
-$green: #6dcd9a;
-$social-size: 1.2em;
-$social-width: 20%;
-
-* {
-    margin: 0;
-    padding: 0;
-    @include box-sizing(border-box);
-}
 
 html,
 body {
