@@ -3,9 +3,6 @@ h1 {
     margin-left: 18pc;
 }
 
-body {
-    background-image: url(nature.png);
-}
 
 /* Add a black background color to the top navigation bar */
 .topnav {
@@ -72,18 +69,12 @@ img {
 }
 
 .first-picture {
-    width: 400px;
+    width: 350px;
     height: max-content;
     border-radius: 5%;
-    margin-left: 0.1pc;
+
 }
 
-.card {
-    margin-left: 0.80cm;
-    margin-top: 0.3cm;
-    width: 400px;
-    height: 400px;
-}
 
 .btn-secondary {
     margin-left: 0.9cm;
