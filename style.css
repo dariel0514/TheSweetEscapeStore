@@ -133,10 +133,6 @@ footer {
         width: 50%;
         float: right;
 
-        @media (max-width: 600px) {
-            width: 100%;
-        }
-
         a {
             float: left;
             line-height: 70px;
@@ -154,20 +150,15 @@ footer {
     }
 }
 
-.linked {
-    background-color: dk-blue;
-    font-size: social-size;
-    width: social-width;
-}
 
-.face {
+.facebook {
     background-color: blue;
     font-size: social-size;
     width: social-width;
 }
 
-.tweet {
-    background-color: light-blue;
+.instagram {
+    background-color: red;
     font-size: social-size;
     width: social-width;
 }
