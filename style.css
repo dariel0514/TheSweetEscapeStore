@@ -88,83 +88,15 @@ img {
     margin-top: 3pc;
 }
 
-@import "compass/css3";
-
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-
-
-html,
-body {
-    font-family: Raleway, sans-serif;
-    background-color: #fff;
-}
-
 footer {
+    background-color: #10dee5;
+    padding-bottom: 4rem;
     width: 100%;
-    display: inline-block;
-    margin: 2em 0;
-    height: 70px;
-    background-color: #999;
-
-    .copyright {
-        width: 50%;
-        float: left;
-
-        @media (max-width: 600px) {
-            width: 100%;
-        }
-
-        p {
-            padding-left: 10%;
-            color: white;
-            font-size: 0.7em;
-            line-height: 70px;
-            text-transform: capitalize;
-            letter-spacing: 1px;
-
-            @media (max-width: 600px) {
-                text-align: center;
-                padding: 0;
-            }
-        }
-    }
-
-    .social {
-        width: 50%;
-        float: right;
-
-        a {
-            float: left;
-            line-height: 70px;
-            text-decoration: none;
-            color: white;
-            text-align: center;
-            font-weight: bold;
-
-
-            &:hover {
-                background-color: #222;
-
-            }
-        }
-    }
-}
-
-
-.facebook {
-    background-color: blue;
-    font-size: social-size;
-    width: social-width;
-}
-
-.instagram {
-    background-color: red;
-    font-size: social-size;
-    width: social-width;
-}
-
-.support {
-    background-color: green;
-    font-size: 0.8em;
-    width: 40%;
+    height: 25vh;
+    color: #100000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    flex-direction: column;
 }
