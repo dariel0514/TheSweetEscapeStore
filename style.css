@@ -69,10 +69,14 @@ img {
 }
 
 .first-picture {
-    width: 350px;
-    height: max-content;
-    border-radius: 5%;
+    object-position: 50px 30px;
+    width: max-content;
+    height: 400px;
+    border-radius: 1%;
+}
 
+.card-group {
+    background-color: red;
 }
 
 
